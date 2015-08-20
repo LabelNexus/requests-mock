@@ -13,7 +13,7 @@
 import json as jsonutils
 
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.response import HTTPResponse
+from urllib3.response import HTTPResponse
 import six
 
 from requests_mock import compat
